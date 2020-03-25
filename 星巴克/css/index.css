@@ -1,0 +1,244 @@
+html {
+    font-size: 62.5% !important;
+    /* 取默认字体的百分比 */
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 59%;
+    }
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 56%
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* 左侧内容 */
+.leftCol {
+    left: 0;
+    top: 0;
+    height: 100vh;
+}
+
+@media (max-width:991.98px) {
+    .leftCol {
+        position: relative !important;
+        height: auto;
+    }
+
+    .login {
+        height: auto !important;
+    }
+}
+
+
+.leftCol>header .nav li a {
+    font-size: 1.6rem;
+}
+
+header .icon-menu {
+    font-size: 3rem;
+    cursor: pointer;
+    color: #858585;
+}
+
+.login .icon-kafei {
+    font-size: 24px;
+    color: #67a4c7;
+}
+
+.login {
+    height: calc(100vh - 80px);
+}
+
+.login h1 {
+    font-size: 2rem;
+}
+
+@media (min-width:576px) {
+    .login h1 {
+        font-size: 2.4rem !important;
+    }
+}
+
+@media (min-width:1250px) {
+    .login h1 {
+        font-size: 2.6rem !important;
+    }
+}
+
+.login .btn {
+    display: inline-block;
+    border-radius: 14px;
+}
+
+.menu {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    z-index: 2000;
+    transition: 0.3s;
+}
+
+.menu .icon-guanbi {
+    cursor: pointer;
+    color: transparent;
+    color: #000;
+    font-size: 16px;
+}
+
+.menu .list ul li {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.menu .list .font {
+    font-size: 1.6rem;
+}
+
+.menu .list .font .register {
+    border-radius: 12px;
+}
+
+.hide {
+    display: none;
+    z-index: -1;
+}
+
+.show {
+    display: block;
+    z-index: 2000;
+}
+
+.rightCol div:nth-of-type(1) .carousel a .icon-left,
+.rightCol div:nth-of-type(1) .carousel a .icon-right {
+    font-size: 6rem;
+}
+
+.rightCol div:nth-of-type(3) .left h2 {
+    font-size: 2.2rem;
+}
+
+.rightCol div:nth-of-type(3) .left p {
+    font-size: 1.6rem;
+    line-height: 34px;
+}
+
+.rightCol div:nth-of-type(3) .left p a {
+    color: #C2A661;
+}
+
+.rightCol div:nth-of-type(3) .left button {
+    border-radius: 13px;
+}
+
+.rightCol .better h3,.teach h3 {
+    font-size: 2.2rem;
+}
+
+.rightCol .better p,.teach p {
+    font-size: 1.6rem;
+}
+
+.rightCol .better li {
+    margin-top: 56px;
+}
+
+.rightCol .better ul li a {
+    transition: 0.2s;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.rightCol .better ul li a img {
+    width: 40%;
+    margin-top: -28px;
+}
+
+.rightCol .better ul li a h4 ,.teach h4 {
+    font-size: 1.6rem;
+}
+
+.rightCol .better ul li a p {
+    font-size: 1.4rem;
+}
+
+.rightCol .better ul li a p.caption {
+    font-size: 1.2rem;
+    color: #C2A661;
+    opacity: 0.7;
+}
+
+.rightCol .better li a:hover {
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.22);
+    transform: translateY(-5px);
+}
+
+.teach ul {
+    width: 1216px;
+}
+
+.teach .li {
+    width: 288px;
+}
+
+.scroll li {
+    transition: 0.2s;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.scroll li span {
+    font-size: 1.4rem;
+    background: #C2A661;
+    left: 0;
+    top: 6px;
+}
+
+.scroll li:hover {
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.22);
+    transform: translateY(-5px);
+}
+
+.teach img {
+    width: 254px;
+}
+
+@media (min-width:625px) {
+    .teach img {
+        width: 290px !important;
+    }
+}
+.teach h4 {
+    font-size: 16px;
+}
+
+/* 底部 */
+.footer ul{
+	box-shadow: 0 0 4px rgba(0,0,0,0.12);
+}
+.footer a span.iconfont{
+	font-size: 2.5rem;
+}
+.footer a.active{
+	color: #00A862!important;
+}
